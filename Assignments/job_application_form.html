@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <h2>Job Application Form</h2>
+    <form action="submit_application.php" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="position">Position Applying For:</label>
+        <select id="position" name="position" required>
+            <option value="">Select a position</option>
+            <option value="developer">Developer</option>
+            <option value="designer">Designer</option>
+            <option value="manager">Manager</option>
+        </select>
+        <br><br>
+
+        <label for="skills">Skills:</label><br>
+        <input type="text" id="html" name="skills">
+
+        <br><br>
+
+        <label for="cover_letter">Cover Letter:</label><br>
+        <textarea id="cover_letter" name="cover_letter" rows="5" cols="40" required></textarea><br><br>
+
+        <button type="submit">Submit Application</button>
+    </form>
+</body>
+</html>
