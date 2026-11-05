@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Speaker Submission Form</h1>
+    <p>
+      Use the form below to submit your speaker proposal for the upcoming
+      conference. Please fill out all required fields.
+    </p>
+
+    <form>
+      <label for="name">Name</label>
+      <input id="name" type="text" />
+
+      <br />
+      <br />
+
+      <label for="email">Email</label>
+      <input id="email" type="email" />
+
+      <br />
+      <br />
+
+      <p>
+        <label for="Talk">Type of Talk</label>
+
+        <input name="r" id="Talk" type="radio" />
+        Main Stage
+
+        <input name="r" id="Talk" type="radio" />
+        Workshop
+      </p>
+
+      <p>
+        T-Shirt Size
+
+        <select name="Sizes" id="size">
+          <option value="Extra Small">Extra Small</option>
+        </select>
+      </p>
+
+      <div>
+        <label for="abstract">Abstract</label>
+        <textarea id="abstract" name="name"></textarea>
+      </div>
+
+      <p>Describe your talk in 500 words or less</p>
+
+      <div>
+        <input type="checkbox" />
+        <span>I'm actually available the date of the bank</span>
+      </div>
+      <br />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
