@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Feedback form</title>
+  </head>
+  <body>
+    <h1>My Feedback form</h1>
+    <form>
+      <ul>
+        <li>
+          <label for="name">Name</label>
+          <input type="text" id="name" />
+        </li>
+
+        <li>
+          <label for="email">Email</label>
+          <input type="email" id="name" />
+        </li>
+
+        <li>
+          <label for="password">Password</label>
+          <input type="password" id="password" />
+        </li>
+
+        <li>
+          <p>Please check all the emotions that apply to you:</p>
+        </li>
+
+        <li>
+          <label for="angry">Angry</label>
+          <input type="checkbox" id="angry" />
+        </li>
+
+        <li>
+          <label for="sad">Sad</label>
+          <input type="checkbox" id="sad" />
+        </li>
+
+        <li>
+          <label for="happy">Happy</label>
+          <input type="checkbox" id="happy" />
+        </li>
+
+        <li>
+          <label for="Ambivalent">Ambivalent</label>
+          <input type="checkbox" id="Ambivalent" />
+        </li>
+      </ul>
+
+      <li>
+        <label for="feedback">Feedback</label>
+        <textarea id="feedback"></textarea>
+      </li>
+
+      <li>
+        <label>Upload your bio</label>
+        <input type="file" id="bio" />
+      </li>
+
+      <li>
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </li>
+    </form>
+  </body>
+</html>
